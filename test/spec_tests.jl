@@ -4,7 +4,7 @@
 # https://github.com/toon-format/spec/tree/main/tests
 
 using Test
-using Toon
+using ToonFormat
 using JSON
 
 """

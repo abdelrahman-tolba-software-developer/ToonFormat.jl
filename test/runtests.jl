@@ -1,5 +1,5 @@
 using Test
-using Toon
+using ToonFormat
 
 # Include specification tests
 include("spec_tests.jl")

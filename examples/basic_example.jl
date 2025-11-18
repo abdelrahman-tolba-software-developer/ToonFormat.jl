@@ -5,7 +5,7 @@
 # Activate the package environment
 using Pkg
 Pkg.activate(joinpath(@__DIR__, ".."))
-using Toon
+using ToonFormat
 
 println("=" ^ 60)
 println("Toon.jl Examples")

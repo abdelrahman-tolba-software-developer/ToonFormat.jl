@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/toon-format/toon/main/.github/og.png" alt="TOON Format" width="600"/>
 </div>
 
-# Toon.jl
+# ToonFormat.jl
 
 A Julia implementation of the TOON (Token-Oriented Object Notation) format - a compact, deterministic JSON format for LLM prompts.
 
@@ -26,21 +26,21 @@ Once published to the Julia General Registry:
 
 ```julia
 using Pkg
-Pkg.add("Toon")
+Pkg.add("ToonFormat")
 ```
 
 Or add to your `Project.toml`:
 
 ```toml
 [deps]
-Toon = "616451e9-093a-4ec3-b67a-88f06778d1cb"
+ToonFormat = "616451e9-093a-4ec3-b67a-88f06778d1cb"
 ```
 
 **Development/Pre-release Installation:**
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/abdelrahman-tolba-software-developer/toon_julia")
+Pkg.add(url="https://github.com/abdelrahman-tolba-software-developer/ToonFormat.jl")
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ Pkg.add(url="https://github.com/abdelrahman-tolba-software-developer/toon_julia"
 ### Encoding
 
 ```julia
-using Toon
+using ToonFormat
 
 # Encode a dictionary
 nested = Dict(
@@ -118,7 +118,7 @@ toon_string = toonEncode(Dict("users" => users))
 ### Decoding
 
 ```julia
-using Toon
+using ToonFormat
 
 # Decode a TOON string
 toon_string = "name: Alice\nage: 30"

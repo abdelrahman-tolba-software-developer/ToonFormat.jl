@@ -1,4 +1,4 @@
-module Toon
+module ToonFormat
 
 # Main entry point for the Toon package
 include("constants.jl")
